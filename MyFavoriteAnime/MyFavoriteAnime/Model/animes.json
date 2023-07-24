@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Violet Evergarden",
+        "imageName": "violet-evergarden"
+    },
+    {
+        "id": 2,
+        "name": "Your Lies In April",
+        "imageName": "your-lies-in-april"
+    },
+    {
+        "id": 3,
+        "name": "Demon Slayer",
+        "imageName": "demon-slayer"
+    }
+]
