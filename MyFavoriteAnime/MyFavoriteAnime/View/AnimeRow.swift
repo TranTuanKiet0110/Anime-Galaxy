@@ -13,7 +13,7 @@ struct AnimeRow: View {
     
     var body: some View {
         HStack {
-            anime.image.resizable().aspectRatio(contentMode: .fit).frame(width: UIScreen.main.bounds.width-310, height: 140,alignment: .center).clipShape(Rectangle()).overlay(Rectangle().stroke(Color(.white), lineWidth: 4)).shadow(color: .purple, radius: 7).padding([.top, .bottom, .trailing])
+            anime.image.resizable().aspectRatio(contentMode: .fit).frame(width: UIScreen.main.bounds.width-310, height: 140,alignment: .center).clipShape(Rectangle()).overlay(Rectangle().stroke(Color(.white), lineWidth: 4)).shadow(color: .purple, radius: 3).padding([.top, .bottom, .trailing])
             Text(anime.name).font(.system(size: 15)).fontWeight(.bold).multilineTextAlignment(.center)
         }
     }
