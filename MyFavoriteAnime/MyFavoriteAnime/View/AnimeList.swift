@@ -8,23 +8,25 @@
 import SwiftUI
 
 struct AnimeList: View {
-    
-//    let filterAnime: [Anime]
+
     @State private var searchText = ""
     
     var body: some View {
-//        NavigationStack {
             List{
-                ForEach(searchResults) {
-                    anime in NavigationLink{
-                        AnimeCard(anime: anime)
-                    } label: {
-                        AnimeRow(anime: anime)
+                if searchResults.isEmpty {
+                    Text("Sorry we cannot find your result!")
+                        .multilineTextAlignment(.center).font(.system(size: 20)).foregroundColor(.blue)
+                } else {
+                    ForEach(searchResults) {
+                        anime in NavigationLink{
+                            AnimeCard(anime: anime)
+                        } label: {
+                            AnimeRow(anime: anime)
+                        }
+                        .navigationTitle("Anime List")
                     }
-                    .navigationTitle("Anime List")
                 }
             }.searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always)).opacity(0.9).background(Image("app-cover-background"))
-//        }
     }
     
     var searchResults: [Anime] {

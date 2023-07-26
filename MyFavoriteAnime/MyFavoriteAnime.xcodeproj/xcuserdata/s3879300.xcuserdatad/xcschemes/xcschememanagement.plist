@@ -6,8 +6,28 @@
 	<dict>
 		<key>MyFavoriteAnime.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>46A7DD1F2A6CD2A000A66F5E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>46A7DD2F2A6CD2A300A66F5E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>46A7DD392A6CD2A300A66F5E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
