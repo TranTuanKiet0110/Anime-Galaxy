@@ -2,16 +2,28 @@
     {
         "id": 1,
         "name": "Violet Evergarden",
-        "imageName": "violet-evergarden"
+        "imageName": "violet-evergarden",
+        "coordinates": {
+            "latitude": 10.729410965174186,
+            "longitude": 106.69522548892152
+        }
     },
     {
         "id": 2,
         "name": "Your Lies In April",
-        "imageName": "your-lies-in-april"
+        "imageName": "your-lies-in-april",
+        "coordinates": {
+            "latitude": 11.729410965174186,
+            "longitude": 107.69522548892152
+        }
     },
     {
         "id": 3,
         "name": "Demon Slayer",
-        "imageName": "demon-slayer"
+        "imageName": "demon-slayer",
+        "coordinates": {
+            "latitude": 12.729410965174186,
+            "longitude": 108.69522548892152
+        }
     }
 ]

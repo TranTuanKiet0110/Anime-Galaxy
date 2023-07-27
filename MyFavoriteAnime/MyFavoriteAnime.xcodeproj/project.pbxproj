@@ -23,6 +23,7 @@
 		46A7DD5D2A6D098000A66F5E /* AnimeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A7DD5C2A6D098000A66F5E /* AnimeRow.swift */; };
 		46A7DD5F2A6D0CE200A66F5E /* AnimeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A7DD5E2A6D0CE200A66F5E /* AnimeCard.swift */; };
 		46A7DD612A6D100C00A66F5E /* AnimePosterBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A7DD602A6D100C00A66F5E /* AnimePosterBorder.swift */; };
+		46EEAE622A72102F00B0C99B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EEAE612A72102F00B0C99B /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		46A7DD5C2A6D098000A66F5E /* AnimeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeRow.swift; sourceTree = "<group>"; };
 		46A7DD5E2A6D0CE200A66F5E /* AnimeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeCard.swift; sourceTree = "<group>"; };
 		46A7DD602A6D100C00A66F5E /* AnimePosterBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimePosterBorder.swift; sourceTree = "<group>"; };
+		46EEAE612A72102F00B0C99B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 				46A7DD5C2A6D098000A66F5E /* AnimeRow.swift */,
 				46A7DD5E2A6D0CE200A66F5E /* AnimeCard.swift */,
 				46A7DD602A6D100C00A66F5E /* AnimePosterBorder.swift */,
+				46EEAE612A72102F00B0C99B /* MapView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				46A7DD262A6CD2A000A66F5E /* ContentView.swift in Sources */,
 				46A7DD242A6CD2A000A66F5E /* MyFavoriteAnimeApp.swift in Sources */,
 				46A7DD532A6CFC8000A66F5E /* AnimeList.swift in Sources */,
+				46EEAE622A72102F00B0C99B /* MapView.swift in Sources */,
 				46A7DD5F2A6D0CE200A66F5E /* AnimeCard.swift in Sources */,
 				46A7DD582A6D025800A66F5E /* ModelData.swift in Sources */,
 			);
