@@ -15,10 +15,10 @@ struct AnimeCard: View {
         ScrollView {
             VStack {
                 MapView(coordinates: anime.locationCoordinate).edgesIgnoringSafeArea(.top).frame(height: 250)
-                AnimePosterBorder(image: anime.image).offset(y: -150).padding(.bottom, 20)
+                AnimePosterBorder(image: anime.image).offset(y: -150).padding(.bottom, -150)
                 Text(anime.name).font(.system(size: 40)).bold()
             }
-        }
+        }.background(Image("app-background").blur(radius: 5))
     }
 }
 
