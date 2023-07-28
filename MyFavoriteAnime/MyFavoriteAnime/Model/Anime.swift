@@ -18,8 +18,9 @@ struct Anime: Identifiable, Codable{
         Image(imageName)
     }
     
-    var coordinates: Coordinates
+    var details: Details
     
+    var coordinates: Coordinates
     var locationCoordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(latitude: coordinates.latitude, longitude: coordinates.longitude)
     }
@@ -28,4 +29,9 @@ struct Anime: Identifiable, Codable{
 struct Coordinates: Codable {
     var latitude: Double
     var longitude: Double
+}
+
+struct Details: Codable {
+    var otherNames: String
+    var plot: String
 }

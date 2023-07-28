@@ -15,10 +15,25 @@ struct AnimeCard: View {
         ScrollView {
             VStack {
                 MapView(coordinates: anime.locationCoordinate).edgesIgnoringSafeArea(.top).frame(height: 250)
-                AnimePosterBorder(image: anime.image).offset(y: -150).padding(.bottom, -150)
-                Text(anime.name).font(.system(size: 40)).bold()
-            }
-        }.background(Image("app-background").blur(radius: 5))
+                AnimePosterBorder(image: anime.image).offset(y: -150).padding(.bottom, -220)
+                Text(anime.name).font(.system(size: 35)).bold()
+                Divider()
+//                VStack {
+//                    HStack {
+//                        Text("Other names: ").font(.system(size: 20)).bold()
+//                        Text(anime.details.otherNames)
+//                    }
+//
+//                    HStack {
+//                        Text("Plot: ").font(.system(size: 20)).bold()
+//                        Text(anime.details.plot)
+//                    }
+//
+//                }
+                AnimeDesciptionRow(anime: anime)
+            }.navigationTitle("\(anime.name)")
+        }
+//        .background(Image("app-background").blur(radius: 7))
     }
 }
 
