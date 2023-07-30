@@ -44,7 +44,7 @@
 
 /* Begin PBXFileReference section */
 		4685697F2A760050004E168D /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
-		46A7DD202A6CD2A000A66F5E /* MyFavoriteAnime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFavoriteAnime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46A7DD202A6CD2A000A66F5E /* AnimeGalaxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimeGalaxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46A7DD232A6CD2A000A66F5E /* MyFavoriteAnimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFavoriteAnimeApp.swift; sourceTree = "<group>"; };
 		46A7DD252A6CD2A000A66F5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		46A7DD272A6CD2A300A66F5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 		46A7DD212A6CD2A000A66F5E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				46A7DD202A6CD2A000A66F5E /* MyFavoriteAnime.app */,
+				46A7DD202A6CD2A000A66F5E /* AnimeGalaxy.app */,
 				46A7DD302A6CD2A300A66F5E /* MyFavoriteAnimeTests.xctest */,
 				46A7DD3A2A6CD2A300A66F5E /* MyFavoriteAnimeUITests.xctest */,
 			);
@@ -173,7 +173,7 @@
 			);
 			name = MyFavoriteAnime;
 			productName = MyFavoriteAnime;
-			productReference = 46A7DD202A6CD2A000A66F5E /* MyFavoriteAnime.app */;
+			productReference = 46A7DD202A6CD2A000A66F5E /* AnimeGalaxy.app */;
 			productType = "com.apple.product-type.application";
 		};
 		46A7DD2F2A6CD2A300A66F5E /* MyFavoriteAnimeTests */ = {
@@ -469,7 +469,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = vn.edu.rmit.kiet.MyFavoriteAnime;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AnimeGalaxy;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -498,7 +498,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = vn.edu.rmit.kiet.MyFavoriteAnime;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AnimeGalaxy;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -23,7 +23,7 @@ struct AnimeCard: View {
                 }.navigationTitle("\(anime.name)")
             }
         }.background(.gray).opacity(0.75)
-        .background(Image("\(anime.backgroundImageName)").blur(radius: 3))
+            .background(Image("\(anime.backgroundImageName)").blur(radius: 3))
     }
 }
 
