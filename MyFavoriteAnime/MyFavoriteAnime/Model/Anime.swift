@@ -18,6 +18,8 @@ struct Anime: Identifiable, Codable{
         Image(imageName)
     }
     
+    var backgroundImageName: String
+    
     var details: Details
     
     var coordinates: Coordinates
@@ -33,5 +35,9 @@ struct Coordinates: Codable {
 
 struct Details: Codable {
     var otherNames: String
+    var author: String
+    var rating: Int
     var plot: String
+    var studioName: String
+    var studioAddress: String
 }

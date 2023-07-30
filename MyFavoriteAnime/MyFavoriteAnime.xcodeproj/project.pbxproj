@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		468569802A760050004E168D /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4685697F2A760050004E168D /* RatingView.swift */; };
 		46A7DD242A6CD2A000A66F5E /* MyFavoriteAnimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A7DD232A6CD2A000A66F5E /* MyFavoriteAnimeApp.swift */; };
 		46A7DD262A6CD2A000A66F5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A7DD252A6CD2A000A66F5E /* ContentView.swift */; };
 		46A7DD282A6CD2A300A66F5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46A7DD272A6CD2A300A66F5E /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4685697F2A760050004E168D /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		46A7DD202A6CD2A000A66F5E /* MyFavoriteAnime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFavoriteAnime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46A7DD232A6CD2A000A66F5E /* MyFavoriteAnimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFavoriteAnimeApp.swift; sourceTree = "<group>"; };
 		46A7DD252A6CD2A000A66F5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				46A7DD602A6D100C00A66F5E /* AnimePosterBorder.swift */,
 				46EEAE612A72102F00B0C99B /* MapView.swift */,
 				46E464842A73678E0045F903 /* AnimeDesciptionRow.swift */,
+				4685697F2A760050004E168D /* RatingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				46A7DD612A6D100C00A66F5E /* AnimePosterBorder.swift in Sources */,
 				46A7DD5D2A6D098000A66F5E /* AnimeRow.swift in Sources */,
 				46A7DD4E2A6CDF1F00A66F5E /* CustomAlertView.swift in Sources */,
+				468569802A760050004E168D /* RatingView.swift in Sources */,
 				46A7DD562A6D014A00A66F5E /* Anime.swift in Sources */,
 				46A7DD262A6CD2A000A66F5E /* ContentView.swift in Sources */,
 				46A7DD242A6CD2A000A66F5E /* MyFavoriteAnimeApp.swift in Sources */,

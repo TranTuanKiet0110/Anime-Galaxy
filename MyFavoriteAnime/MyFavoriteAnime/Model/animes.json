@@ -3,39 +3,54 @@
         "id": 1,
         "name": "Violet Evergarden",
         "imageName": "violet-evergarden",
+        "backgroundImageName": "violet-evergarden-background",
         "details" : {
             "otherNames": "Japanese: ヴァイオレット・エヴァーガーデン, Hepburn: Vaioretto Evāgāden",
-            "plot": "This anime is about.........................bdfb dfb fdggh"
+            "author": "Kana Akatsuki",
+            "rating": 5,
+            "plot": "The story follows Violet Evergarden's journey of reintegrating back into society after the war is over as she is no longer a soldier, and her search for her life's purpose in order to understand the last words her mentor and guardian, Major Gilbert, had said to her: \"I love you.\"",
+            "studioName": "Kyoto Animation",
+            "studioAddress": "32, Kobata Osedo, Uji, Kyoto, Japan"
         },
         "coordinates": {
-            "latitude": 10.729410965174186,
-            "longitude": 106.69522548892152
+            "latitude": 34.924742,
+            "longitude": 135.798600
         }
     },
     {
         "id": 2,
-        "name": "Your Lies In April",
-        "imageName": "your-lies-in-april",
+        "name": "Your Lie In April",
+        "imageName": "your-lie-in-april",
+        "backgroundImageName": "your-lie-in-april-background",
         "details" : {
-            "otherNames": "Japanese: ヴァイオレット・エヴァーガーデン, Hepburn: Vaioretto Evāgāden",
-            "plot": "This anime is about...................................fgsjhgkshf"
+            "otherNames": "Japanese: 四月は君の嘘, Hepburn: Shigatsu wa Kimi no Uso",
+            "author": "Naoshi Arakawa",
+            "rating": 5,
+            "plot": "A piano prodigy, whose name is Arima Kousei; lost his ability to play after suffering a traumatic event in his childhood is forced back into the spotlight by an eccentric girl with a secret of her own. \nHe hasn't played since he played for his mother who died a few years ago. One day Arima meets a brilliant violinist - Miyazono Kaori at the park. After their meeting she tries to guide Arima back into the world of music.",
+            "studioName": "A-1 Pictures",
+            "studioAddress": "338-18, Naritahigashi 4-Chōme, Suginami, Tokyo"
         },
         "coordinates": {
-            "latitude": 11.729410965174186,
-            "longitude": 107.69522548892152
+            "latitude": 35.698575,
+            "longitude": 139.636689
         }
     },
     {
         "id": 3,
         "name": "Demon Slayer",
         "imageName": "demon-slayer",
+        "backgroundImageName": "violet-evergarden-background",
         "details" : {
-            "otherNames": "Japanese: ヴァイオレット・エヴァーガーデン, Hepburn: Vaioretto Evāgāden",
-            "plot": "This anime is about.........................g dfssgsfgsfgsdf"
+            "otherNames": "Japanese: 鬼滅の刃, Hepburn: Kimetsu no Yaiba",
+            "author": "Koyoharu Gotouge",
+            "rating": 4,
+            "plot": "The story about a family which attacked by demons and only two members survive - Tanjiro and his sister Nezuko, who is turning into a demon slowly. Tanjiro is on the way to become a demon slayer in order to avenge his family and cure his sister.",
+            "studioName": "Ufotable, Inc",
+            "studioAddress": "47-17, Hon-amanuma 2-Chōme, Suginami, Tokyo, Japan"
         },
         "coordinates": {
-            "latitude": 12.729410965174186,
-            "longitude": 108.69522548892152
+            "latitude": 35.716778,
+            "longitude": 139.625194
         }
     }
 ]
