@@ -28,7 +28,7 @@
             "rating": 5,
             "plot": "A piano prodigy, whose name is Arima Kousei; lost his ability to play after suffering a traumatic event in his childhood is forced back into the spotlight by an eccentric girl with a secret of her own. \nHe hasn't played since he played for his mother who died a few years ago. One day Arima meets a brilliant violinist - Miyazono Kaori at the park. After their meeting she tries to guide Arima back into the world of music.",
             "studioName": "A-1 Pictures",
-            "studioAddress": "338-18, Naritahigashi 4-Chōme, Suginami, Tokyo"
+            "studioAddress": "338-18, Naritahigashi 4-Chōme, Suginami, Tokyo, Japan"
         },
         "coordinates": {
             "latitude": 35.698575,
@@ -64,11 +64,65 @@
             "rating": 3,
             "plot": "The year is 2022, and gamers have lined up on launch day for Sword Art Online, a hotly-anticipated MMORPG that lets players connect to an immersive virtual reality world with special helmets called Nerve Gear. Kirito is one such gamer who's eager to jump back into action, having spent a great deal of time as a beta tester, and quickly becomes friends with newbie warrior Klein. But soon, Sword Art Online's 10,000 players discover that not only are they unable to log out, the only way they can return to their physical bodies is by beating the 100-level tower's final boss - death in the game means death in the real world. Now, with no one else to turn to, Kirito and the other participants must survive the game as best they can.",
             "studioName": "A-1 Pictures",
-            "studioAddress": "338-18, Naritahigashi 4-Chōme, Suginami, Tokyo"
+            "studioAddress": "338-18, Naritahigashi 4-Chōme, Suginami, Tokyo, Japan"
         },
         "coordinates": {
             "latitude": 35.698575,
             "longitude": 139.636689
+        }
+    },
+    {
+        "id": 5,
+        "name": "Lycoris Recoil",
+        "imageName": "lycoris-recoil",
+        "backgroundImageName": "lycoris-recoil-background",
+        "details" : {
+            "otherNames": "Japanese: リコリス・リコイル, Hepburn: Rikorisu Rikoiru",
+            "author": "Shingo Adachi",
+            "rating": 4,
+            "plot": "The number of terrorist acts in Japan has never been lower, thanks to the efforts of the Direct Attack syndicate. The organisation raises orphaned girls as killers to carry out assassinations under the \"Lycoris\" program. Takina Inoue is an exceptional Lycoris with a strong sense of purpose and a penchant for perfection. But when she is transferred out of DA headquarters for insubordination, she arrives in her new base of operations - LycoReco, a branch of DA in disguise as a cafe. Feeling like a fish out of water, Takina itches to be reinstated into DA, but her new partner, the famed Lycoris prodigy Chisato, is determined to prove to her that there is more to a life than just taking them.",
+            "studioName": "A-1 Pictures",
+            "studioAddress": "338-18, Naritahigashi 4-Chōme, Suginami, Tokyo, Japan"
+        },
+        "coordinates": {
+            "latitude": 35.698575,
+            "longitude": 139.636689
+        }
+    },
+    {
+        "id": 6,
+        "name": "Your Name",
+        "imageName": "your-name",
+        "backgroundImageName": "your-name-background",
+        "details" : {
+            "otherNames": "Japanese: 君の名は。, Hepburn: Kimi no Na wa",
+            "author": "Makoto Shinkai",
+            "rating": 5,
+            "plot": "Two teenagers share a profound, magical connection upon discovering they are swapping bodies. Things manage to become even more complicated when the boy and girl decide to meet in person. \nMitsuha is the daughter of the mayor of a small mountain town. She's a straightforward high school girl who lives with her sister and her grandmother and has no qualms about letting it be known that she's uninterested in Shinto rituals or helping her father's electoral campaign. Instead she dreams of leaving the boring town and trying her luck in Tokyo. Taki is a high school boy in Tokyo who works part-time in an Italian restaurant and aspires to become an architect or an artist. Every night he has a strange dream where he becomes...a high school girl in a small mountain town.",
+            "studioName": "CoMix Wave Films, Inc",
+            "studioAddress": "4-Chōme-30-16 Ogikubo, Suginami City, Tokyo, 167-0051, Japan"
+        },
+        "coordinates": {
+            "latitude": 35.704084,
+            "longitude": 139.623632
+        }
+    },
+    {
+        "id": 7,
+        "name": "The Garden Of Words",
+        "imageName": "the-garden-of-words",
+        "backgroundImageName": "the-garden-of-words-background",
+        "details" : {
+            "otherNames": "Japanese: 言の葉の庭, Hepburn: Kotonoha no Niwa",
+            "author": "Makoto Shinkai",
+            "rating": 5,
+            "plot": "A 15-year-old boy and 27-year-old woman find an unlikely friendship one rainy day in the Shinjuku Gyoen National Garden. \nTakao, who dreams of becoming a shoemaker, skips school and is sketching shoes in a garden in the middle of Tokyo. He meets a mysterious woman, Yukino, who is older than him. Then, without arranging the times, the two start to see each other again and again, but only on rainy days.",
+            "studioName": "CoMix Wave Films, Inc",
+            "studioAddress": "4-Chōme-30-16 Ogikubo, Suginami City, Tokyo, 167-0051, Japan"
+        },
+        "coordinates": {
+            "latitude": 35.704084,
+            "longitude": 139.623632
         }
     }
 ]
