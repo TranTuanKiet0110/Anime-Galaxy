@@ -7,7 +7,7 @@
 
 import SwiftUI
 import MapKit
-
+/* map view for each item in detailed view */
 struct Place: Identifiable {
     let id = UUID()
     let name: String

@@ -6,13 +6,19 @@
 //
 
 import SwiftUI
-
+/* poster border for each item */
 struct AnimePosterBorder: View {
     
     var image: Image
     
     var body: some View {
-        image.resizable().aspectRatio(contentMode: .fit).frame(width: 150, height: 300).clipShape(Circle()).overlay(Circle().stroke(Color(.white), lineWidth: 4)).shadow(color: .blue, radius: 7)
+        image
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+            .frame(width: 150, height: 300)
+            .clipShape(Circle())
+            .overlay(Circle().stroke(Color(.white), lineWidth: 4))
+            .shadow(color: .blue, radius: 7)
     }
 }
 

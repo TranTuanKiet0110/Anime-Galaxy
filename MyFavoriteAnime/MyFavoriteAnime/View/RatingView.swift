@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+/* rating view for each item in navigation list view */
 struct RatingView: View {
     var anime: Anime
     

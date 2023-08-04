@@ -7,14 +7,15 @@
 
 import SwiftUI
 
+/* navigation list view */
 struct AnimeList: View {
-    @AppStorage("isDark") private var isDark = false
-    @State private var searchText = ""
-    @State private var isOn = false
+    @AppStorage("isDark") private var isDark = false //state of light mode and dark mode
+    @State private var searchText = "" //search text when first view the page
+    @State private var isOn = false //state of filter
     
     var body: some View {
             List{
-                Toggle("Show 5 stars rating animes", isOn: $isOn).toggleStyle(SwitchToggleStyle(tint: .green))
+                Toggle("Show 5 stars rating animes", isOn: $isOn).toggleStyle(SwitchToggleStyle(tint: .green)) // filter option
                 if searchResults.isEmpty {
                     Text("Sorry we cannot find your result!")
                         .multilineTextAlignment(.center).font(.system(size: 20)).foregroundColor(.blue)
@@ -32,8 +33,10 @@ struct AnimeList: View {
             }.toolbar{
                 ToolbarItem(placement: ToolbarItemPlacement.navigationBarTrailing){
                     Button(action: {isDark.toggle()}, label: {isDark ? Label("Dark",systemImage: "sun.max.fill") : Label("Dark",systemImage: "moon.fill")})
-                }
-            }.environment(\.colorScheme, isDark ? .dark : .light).searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always)).opacity(0.9).background(Image("app-cover-background"))
+                } //light mode and dark mode button on toolbar
+            }.environment(\.colorScheme, isDark ? .dark : .light)
+            .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always))
+            .opacity(0.9).background(Image("app-cover-background"))
     }
     
     var searchResults: [Anime] {
@@ -49,7 +52,7 @@ struct AnimeList: View {
         } else {
             return animes.filter {$0.name.contains(searchText)}
         }
-    }
+    } //cases for search bar and light/dark mode
 }
 
 struct AnimeList_Previews: PreviewProvider {

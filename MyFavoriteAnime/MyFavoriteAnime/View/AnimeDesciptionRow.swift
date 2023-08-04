@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+/* description view for each item in detailed view */
 struct AnimeDesciptionRow: View {
     var anime: Anime
     

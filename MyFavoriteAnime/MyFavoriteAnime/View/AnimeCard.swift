@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+/* detailed view for each item */
 struct AnimeCard: View {
     
     var anime: Anime
@@ -16,8 +16,12 @@ struct AnimeCard: View {
             ZStack {
                 VStack {
                     MapView(anime: anime, coordinates: anime.locationCoordinate).edgesIgnoringSafeArea(.top).frame(height: 250)
-                    AnimePosterBorder(image: anime.image).offset(y: -150).padding(.bottom, -220)
-                    Text(anime.name).font(.system(size: 35)).bold()
+                    AnimePosterBorder(image: anime.image)
+                        .offset(y: -150)
+                        .padding(.bottom, -220)
+                    Text(anime.name)
+                        .font(.system(size: 35))
+                        .bold()
                     Divider()
                     AnimeDesciptionRow(anime: anime)
                 }.navigationTitle("\(anime.name)")

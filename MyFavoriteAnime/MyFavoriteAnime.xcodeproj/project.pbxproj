@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		461E61172A7C92AA003AA568 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461E61162A7C92AA003AA568 /* WelcomeView.swift */; };
 		468569802A760050004E168D /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4685697F2A760050004E168D /* RatingView.swift */; };
 		46A7DD242A6CD2A000A66F5E /* MyFavoriteAnimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A7DD232A6CD2A000A66F5E /* MyFavoriteAnimeApp.swift */; };
 		46A7DD262A6CD2A000A66F5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A7DD252A6CD2A000A66F5E /* ContentView.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		461E61162A7C92AA003AA568 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		4685697F2A760050004E168D /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		46A7DD202A6CD2A000A66F5E /* AnimeGalaxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimeGalaxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46A7DD232A6CD2A000A66F5E /* MyFavoriteAnimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFavoriteAnimeApp.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				46EEAE612A72102F00B0C99B /* MapView.swift */,
 				46E464842A73678E0045F903 /* AnimeDesciptionRow.swift */,
 				4685697F2A760050004E168D /* RatingView.swift */,
+				461E61162A7C92AA003AA568 /* WelcomeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				46A7DD562A6D014A00A66F5E /* Anime.swift in Sources */,
 				46A7DD262A6CD2A000A66F5E /* ContentView.swift in Sources */,
 				46A7DD242A6CD2A000A66F5E /* MyFavoriteAnimeApp.swift in Sources */,
+				461E61172A7C92AA003AA568 /* WelcomeView.swift in Sources */,
 				46E464852A73678E0045F903 /* AnimeDesciptionRow.swift in Sources */,
 				46A7DD532A6CFC8000A66F5E /* AnimeList.swift in Sources */,
 				46EEAE622A72102F00B0C99B /* MapView.swift in Sources */,

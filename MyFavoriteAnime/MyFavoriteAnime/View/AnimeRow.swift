@@ -6,16 +6,25 @@
 //
 
 import SwiftUI
-
+/* row view for each item in navigation list */
 struct AnimeRow: View {
     
     var anime: Anime
     
     var body: some View {
         HStack {
-            anime.image.resizable().aspectRatio(contentMode: .fit).frame(width: UIScreen.main.bounds.width-310, height: 140,alignment: .center).clipShape(Rectangle()).overlay(Rectangle().stroke(Color(.white), lineWidth: 4)).shadow(color: .purple, radius: 3).padding([.top, .bottom, .trailing])
+            anime.image
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: UIScreen.main.bounds.width-310, height: 140,alignment: .center)
+                .clipShape(Rectangle())
+                .overlay(Rectangle()
+                    .stroke(Color(.white), lineWidth: 4))
+                .shadow(color: .purple, radius: 3).padding([.top, .bottom, .trailing])
             VStack {
-                Text(anime.name).font(.system(size: 15)).fontWeight(.bold).multilineTextAlignment(.center).padding(.bottom)
+                Text(anime.name)
+                    .font(.system(size: 15))
+                    .fontWeight(.bold).multilineTextAlignment(.center).padding(.bottom)
                 RatingView(anime: anime)
             }.frame(width: 150)
         }
