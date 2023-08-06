@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4612063D2A7F81210048B959 /* AnimateText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4612063C2A7F81210048B959 /* AnimateText.swift */; };
 		461E61172A7C92AA003AA568 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461E61162A7C92AA003AA568 /* WelcomeView.swift */; };
 		468569802A760050004E168D /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4685697F2A760050004E168D /* RatingView.swift */; };
 		46A7DD242A6CD2A000A66F5E /* MyFavoriteAnimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A7DD232A6CD2A000A66F5E /* MyFavoriteAnimeApp.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4612063C2A7F81210048B959 /* AnimateText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateText.swift; sourceTree = "<group>"; };
 		461E61162A7C92AA003AA568 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		4685697F2A760050004E168D /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		46A7DD202A6CD2A000A66F5E /* AnimeGalaxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimeGalaxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,6 +140,7 @@
 				46A7DD552A6D014A00A66F5E /* Anime.swift */,
 				46A7DD592A6D04B800A66F5E /* animes.json */,
 				46A7DD572A6D025800A66F5E /* ModelData.swift */,
+				4612063C2A7F81210048B959 /* AnimateText.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				46A7DD532A6CFC8000A66F5E /* AnimeList.swift in Sources */,
 				46EEAE622A72102F00B0C99B /* MapView.swift in Sources */,
 				46A7DD5F2A6D0CE200A66F5E /* AnimeCard.swift in Sources */,
+				4612063D2A7F81210048B959 /* AnimateText.swift in Sources */,
 				46A7DD582A6D025800A66F5E /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

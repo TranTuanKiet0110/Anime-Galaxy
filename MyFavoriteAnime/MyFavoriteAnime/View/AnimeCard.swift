@@ -13,7 +13,6 @@ struct AnimeCard: View {
     
     var body: some View {
         ScrollView {
-            ZStack {
                 VStack {
                     MapView(anime: anime, coordinates: anime.locationCoordinate).edgesIgnoringSafeArea(.top).frame(height: 250)
                     AnimePosterBorder(image: anime.image)
@@ -25,7 +24,6 @@ struct AnimeCard: View {
                     Divider()
                     AnimeDesciptionRow(anime: anime)
                 }.navigationTitle("\(anime.name)")
-            }
         }.background(.gray).opacity(0.75)
             .background(Image("\(anime.backgroundImageName)").blur(radius: 3))
     }
